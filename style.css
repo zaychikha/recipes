@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #A1FF00 ;
+    
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #b60dc1 ;
+}
+p {
+    text-align: center;
+    font-size: 2rem;
+    color: #0D5ACF;
+
+}
+
+#links {
+display: flex;
+width: 100%;
+
+}
+.link{
+    max-width: 33%;
+}
+
+img {
+    width: 100%;
+}
+
+img:hover {
+    filter:brightness(75%);
+    transition: .2s;
+}
