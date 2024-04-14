@@ -47,3 +47,11 @@ form {
     width: 100%;
     align-items: center;
 }
+
+@media only screen and (min-width: 700px) {
+    .video {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
