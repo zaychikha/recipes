@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="serdechki.css">
     <title>Сердечки</title>
 </head>
-<body>
+<body background="./images/sky.jpg" class="background">
 <div class="video">
     <video src="videos/hearts-video-compressed.mp4" controls></video>
 </div>
@@ -13,14 +17,22 @@
     <h2>Головоломка</h2>
     <p>Размер сердца взрослого человека почти идентичен с размером...?</p>
     <form action="">
+        <div>
         <input type="radio" name="question" id="answer-a" class="incorrect">
         <label for="answer-a">распухшей ноги</label>
+        </div>
+        <div>
         <input type="radio" name="question" id="answer-b" class="incorrect">
         <label for="answer-b">большой головы</label>
+        </div>
+        <div>
         <input type="radio" name="question" id="answer-c" class="correct">
         <label for="answer-с">сжатого кулака</label>
+        </div>
+        <div>
         <input type="radio" name="question" id="answer-d" class="incorrect">
         <label for="answer-d">закрытого глаза</label>
+        </div>
     </form>
 </div>
 </body>
