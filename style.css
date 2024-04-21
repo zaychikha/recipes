@@ -38,8 +38,4 @@ img:hover {
     transition: .2s;
 }
 
-form { 
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
+

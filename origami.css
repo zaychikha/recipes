@@ -24,6 +24,29 @@ form {
     display: flex;
 }
 
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #ff00b3 ;
+    
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #0D5ACF;
+}
+
+a:hover {
+    color: #2F7CEF;
+}
+
 h2 {
     text-align: center;
     font-size: 3rem;
@@ -54,4 +77,8 @@ form {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+footer {
+    margin-top: 20px;
 }
