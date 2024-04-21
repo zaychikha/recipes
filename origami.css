@@ -2,6 +2,10 @@
     font-family: "Caveat", cursive;
 }
 
+body {
+    margin: 0;
+}
+
 
 body {
     display: flex;
